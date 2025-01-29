@@ -1,0 +1,51 @@
+/*-- scss:defaults --*/
+/*-- scss:rules --*/
+
+body {
+  background-image: url('assets/pattern.svg');
+  background-repeat: repeat; /* Repeat the background */
+  background-size: 20px;
+}
+
+.title-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.title-main {
+  font-size: 4em;
+  font-weight: 600;
+  background: linear-gradient(to right, #e67e22, #f1c40f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.05em;
+  padding: 2px;
+  line-height: 1;
+}
+
+.subtitle-main {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.image-map {
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.image-bee {
+  width: 80px;
+}
+
+.image-hive {
+  width: 80px;
+  float: right;
+  padding-bottom: 10px;
+}
+
+.image-flower {
+  width: 80px;
+  float: right;
+}

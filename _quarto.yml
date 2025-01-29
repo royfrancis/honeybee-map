@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  open-graph: true
+  site-url: "https://royfrancis.github.io/world-honeybee-map"
+  favicon: "assets/favicon.svg"
+  image: "assets/seo.webp"
+  description: "Annotated map showing the native distribution of honey bee species and subspecies around the world."
+  navbar:
+    background: transparent
+    title: "World Honey Bee Map"
+    logo: "assets/favicon.svg"
+    logo-alt: "logo"
+    search: false
+    right:
+      - icon: "github"
+        href: "https://github.com/royfrancis/world-honeybee-map/"
+        aria-label: "GitHub"
+  page-footer:
+    border: false
+    left: "2025 Roy Francis"
+    right: '<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>'
+
+format:
+  html:
+    quarto-required: ">=1.4.0"
+    include-in-header: "assets/include_head.html"
+    theme: ["default", "assets/styles.scss"]
+    date-format: "DD-MMM-YYYY"
+    page-layout: full
+    lightbox: true

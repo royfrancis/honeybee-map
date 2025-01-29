@@ -1,0 +1,15 @@
+color:
+  background: "#fef9e7"
+  foreground: "#2e4053"
+  primary: "#e67e22"
+
+typography:
+  fonts:
+    - family: Sniglet
+      source: google
+  base: 
+    family: Sniglet
+    size: 18px
+  headings: 
+    family: Sniglet
+    line-height: 1

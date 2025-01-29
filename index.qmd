@@ -1,0 +1,30 @@
+---
+pagetitle: "Honey Bees • Native World Distribution Map"
+format: html
+---
+
+::: {.title-parent}
+::: {}
+![](assets/bee.png){.nolightbox .image-bee}
+:::
+::: {}
+[Honey Bees Of The World]{.title-main}
+:::
+:::
+
+Annotated map showing the native distribution of honey bee species and subspecies around the world.
+
+![](world-honeybee-map.jpg){.image-map}
+
+This detailed map illustrates the natural distribution of honey bee species and subspecies worldwide. Each label includes the scientific name, common name, original author, and year of description. Superscript numbers link these labels to relevant references listed below. Additionally, a representative image of each species is presented on a cladogram showing evolutionary relationships.
+
+- Intended for print at A3 paper size
+- Small text and features may not be legible at smaller sizes
+
+![](assets/flower.png){.nolightbox .image-flower}
+
+## Acknowledgements
+
+Thanks to [Per Kryger](https://www.au.dk/en/per.kryger@agro.au.dk) and [Marina Meixner](https://beeguards.eu/contact/meixner-marina/) for their scientific input and feedback on the map.  
+Site graphics: https://www.freepik.com/ and https://pattern.monster/
+
