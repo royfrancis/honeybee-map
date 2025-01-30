@@ -8,12 +8,12 @@ website:
   favicon: "assets/favicon.svg"
   image: "assets/seo.webp"
   description: "Annotated map showing the native distribution of honey bee species and subspecies around the world."
+  search: false
   navbar:
     background: transparent
     title: "World Honey Bee Map"
     logo: "assets/favicon.svg"
     logo-alt: "logo"
-    search: false
     right:
       - icon: "github"
         href: "https://github.com/royfrancis/world-honeybee-map/"

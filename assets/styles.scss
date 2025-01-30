@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .title-main {
@@ -25,9 +25,13 @@ body {
   line-height: 1;
 }
 
-.subtitle-main {
-  font-size: 3em;
-  font-weight: 400;
+@media only screen and (max-width: 768px) {
+  .title-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
 
 .image-map {
@@ -37,12 +41,6 @@ body {
 
 .image-bee {
   width: 80px;
-}
-
-.image-hive {
-  width: 80px;
-  float: right;
-  padding-bottom: 10px;
 }
 
 .image-flower {
