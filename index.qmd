@@ -8,7 +8,9 @@ format: html
 ![](assets/bee.png){.nolightbox .image-bee}
 :::
 ::: {}
-[Honey Bees Of The World]{.title-main}
+::: {.title-main}
+Honey Bees Of The World
+:::
 :::
 :::
 
